@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fff5;
+    color: #2d572c;
+}
+
+header {
+    background-color: #2d572c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2d572c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#notes {
+    text-align: center;
+    padding: 50px;
+}
+
+.notes-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.note {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 250px;
+}
+
+.note h3 {
+    margin: 0;
+}
+
+.note a {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    background: #2d572c;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #2d572c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
